@@ -1,5 +1,5 @@
 
-name: Deploy Ember to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -11,39 +11,40 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: pages
-  cancel-in-progress: true
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ember-phd-react
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Build
+      - name: Build React application
         run: npm run build
 
-      - name: Setup Pages
+      - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload website
+      - name: Upload build
         uses: actions/upload-pages-artifact@v4
         with:
-          path: dist
+          path: ember-phd-react/dist
 
       - name: Deploy
         id: deployment
