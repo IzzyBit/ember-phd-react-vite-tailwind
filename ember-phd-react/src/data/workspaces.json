@@ -1,0 +1,1899 @@
+{
+  "version": 1,
+  "workspaces": [
+    {
+      "id": "phd",
+      "title": "PhD Game",
+      "subtitle": "Medical AI & Applied Data Science",
+      "accent": "#b36a3a",
+      "nodes": [
+        {
+          "id": "phd",
+          "parentId": null,
+          "title": "PhD Position",
+          "kind": "root",
+          "description": "Your long-term goal: earn a funded research position investigating medical diagnostics through machine learning, medical image analysis and EEG.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "phd-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Your long-term goal: earn a funded research position investigating medical diagnostics through machine learning, medical image analysis and EEG."
+            },
+            {
+              "id": "phd-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "phd-task-1",
+                  "text": "Define your preferred research direction",
+                  "xp": 40
+                },
+                {
+                  "id": "phd-task-2",
+                  "text": "Build a credible research profile",
+                  "xp": 60
+                },
+                {
+                  "id": "phd-task-3",
+                  "text": "Prepare and submit PhD applications",
+                  "xp": 80
+                }
+              ]
+            },
+            {
+              "id": "phd-note",
+              "type": "callout",
+              "title": "Research note",
+              "body": "There is no single required path. A strong thesis, relevant expertise and supervisor fit matter more than ticking every possible box."
+            }
+          ]
+        },
+        {
+          "id": "academics",
+          "parentId": "phd",
+          "title": "Academics",
+          "kind": "category",
+          "description": "Develop the academic eligibility and technical grounding needed for research.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "academics-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Develop the academic eligibility and technical grounding needed for research."
+            },
+            {
+              "id": "academics-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "academics-task-1",
+                  "text": "Review MSc degree requirements",
+                  "xp": 40
+                },
+                {
+                  "id": "academics-task-2",
+                  "text": "Plan foundational and elective courses",
+                  "xp": 60
+                },
+                {
+                  "id": "academics-task-3",
+                  "text": "Track semester milestones",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "education",
+          "parentId": "academics",
+          "title": "Education",
+          "kind": "group",
+          "description": "Finish your degree milestones without losing track of prerequisites.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "education-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Finish your degree milestones without losing track of prerequisites."
+            },
+            {
+              "id": "education-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "education-task-1",
+                  "text": "Plan remaining degree credits",
+                  "xp": 40
+                },
+                {
+                  "id": "education-task-2",
+                  "text": "Pass current term courses",
+                  "xp": 60
+                },
+                {
+                  "id": "education-task-3",
+                  "text": "Update your degree timeline",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "first-year",
+          "parentId": "education",
+          "title": "Complete first year of Masters",
+          "kind": "quest",
+          "description": "Finish the first year of your two-year MSc degree.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "first-year-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Finish the first year of your two-year MSc degree."
+            },
+            {
+              "id": "first-year-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "first-year-task-1",
+                  "text": "Track first-year modules and deadlines",
+                  "xp": 40
+                },
+                {
+                  "id": "first-year-task-2",
+                  "text": "Complete first-year examinations",
+                  "xp": 60
+                },
+                {
+                  "id": "first-year-task-3",
+                  "text": "Confirm earned credits",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "required-courses",
+          "parentId": "education",
+          "title": "Complete required courses",
+          "kind": "quest",
+          "description": "Finish the compulsory coursework for your Masters degree.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "required-courses-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Finish the compulsory coursework for your Masters degree."
+            },
+            {
+              "id": "required-courses-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "required-courses-task-1",
+                  "text": "List compulsory courses",
+                  "xp": 40
+                },
+                {
+                  "id": "required-courses-task-2",
+                  "text": "Verify prerequisites are met",
+                  "xp": 60
+                },
+                {
+                  "id": "required-courses-task-3",
+                  "text": "Pass the remaining required courses",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "specialization",
+          "parentId": "academics",
+          "title": "Specialization",
+          "kind": "group",
+          "description": "Choose a research niche and take courses that support it.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "specialization-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Choose a research niche and take courses that support it."
+            },
+            {
+              "id": "specialization-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "specialization-task-1",
+                  "text": "Shortlist three possible research topics",
+                  "xp": 40
+                },
+                {
+                  "id": "specialization-task-2",
+                  "text": "Choose a primary research direction",
+                  "xp": 60
+                },
+                {
+                  "id": "specialization-task-3",
+                  "text": "Map courses and projects to that direction",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "research-field",
+          "parentId": "specialization",
+          "title": "Choose research field",
+          "kind": "quest",
+          "description": "Narrow down the diagnostic problem and data modality you want to investigate.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "research-field-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Narrow down the diagnostic problem and data modality you want to investigate."
+            },
+            {
+              "id": "research-field-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "research-field-task-1",
+                  "text": "Compare imaging, EEG and multimodal research",
+                  "xp": 40
+                },
+                {
+                  "id": "research-field-task-2",
+                  "text": "Read three papers in your strongest area",
+                  "xp": 60
+                },
+                {
+                  "id": "research-field-task-3",
+                  "text": "Write a one-paragraph research focus",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "specialization-courses",
+          "parentId": "specialization",
+          "title": "Complete specialization courses",
+          "kind": "quest",
+          "description": "Focus coursework on medical imaging, machine learning, clinical applications and relevant statistics.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "specialization-courses-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Focus coursework on medical imaging, machine learning, clinical applications and relevant statistics."
+            },
+            {
+              "id": "specialization-courses-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "specialization-courses-task-1",
+                  "text": "Choose advanced image analysis or ML electives",
+                  "xp": 40
+                },
+                {
+                  "id": "specialization-courses-task-2",
+                  "text": "Check course prerequisites",
+                  "xp": 60
+                },
+                {
+                  "id": "specialization-courses-task-3",
+                  "text": "Complete selected electives",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "skills",
+          "parentId": "academics",
+          "title": "Skills",
+          "kind": "group",
+          "description": "Develop practical competence you can demonstrate in a research portfolio.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "skills-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Develop practical competence you can demonstrate in a research portfolio."
+            },
+            {
+              "id": "skills-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "skills-task-1",
+                  "text": "Build a skills inventory",
+                  "xp": 40
+                },
+                {
+                  "id": "skills-task-2",
+                  "text": "Choose one technical gap to close",
+                  "xp": 60
+                },
+                {
+                  "id": "skills-task-3",
+                  "text": "Prove a skill with a small project",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ml",
+          "parentId": "skills",
+          "title": "Understand Machine Learning",
+          "kind": "quest",
+          "description": "Be able to select, implement and critically evaluate ML methods.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "ml-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Be able to select, implement and critically evaluate ML methods."
+            },
+            {
+              "id": "ml-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "ml-task-1",
+                  "text": "Train and evaluate a baseline model",
+                  "xp": 40
+                },
+                {
+                  "id": "ml-task-2",
+                  "text": "Compare against a more advanced model",
+                  "xp": 60
+                },
+                {
+                  "id": "ml-task-3",
+                  "text": "Explain uncertainty and data leakage",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "medical-imaging",
+          "parentId": "skills",
+          "title": "Understand Medical Imaging Techniques",
+          "kind": "quest",
+          "description": "Learn the data types, workflow and methods used in clinical imaging.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "medical-imaging-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Learn the data types, workflow and methods used in clinical imaging."
+            },
+            {
+              "id": "medical-imaging-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "medical-imaging-task-1",
+                  "text": "Study MRI, CT and X-ray fundamentals",
+                  "xp": 40
+                },
+                {
+                  "id": "medical-imaging-task-2",
+                  "text": "Implement segmentation or classification",
+                  "xp": 60
+                },
+                {
+                  "id": "medical-imaging-task-3",
+                  "text": "Explain common medical-image pitfalls",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eeg",
+          "parentId": "skills",
+          "title": "Understand EEG Analysis",
+          "kind": "quest",
+          "description": "Learn EEG preprocessing, feature extraction and model evaluation.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "eeg-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Learn EEG preprocessing, feature extraction and model evaluation."
+            },
+            {
+              "id": "eeg-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "eeg-task-1",
+                  "text": "Explore an EEG dataset",
+                  "xp": 40
+                },
+                {
+                  "id": "eeg-task-2",
+                  "text": "Apply filtering and artifact handling",
+                  "xp": 60
+                },
+                {
+                  "id": "eeg-task-3",
+                  "text": "Build an EEG classification or analysis baseline",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "research",
+          "parentId": "phd",
+          "title": "Research",
+          "kind": "category",
+          "description": "Build evidence that you can ask and answer scientific questions.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "research-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Build evidence that you can ask and answer scientific questions."
+            },
+            {
+              "id": "research-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "research-task-1",
+                  "text": "Read a relevant research paper",
+                  "xp": 40
+                },
+                {
+                  "id": "research-task-2",
+                  "text": "Reproduce a published method",
+                  "xp": 60
+                },
+                {
+                  "id": "research-task-3",
+                  "text": "Develop a defensible research question",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "projects",
+          "parentId": "research",
+          "title": "Projects",
+          "kind": "group",
+          "description": "Collect a set of completed research-oriented projects.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "projects-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Collect a set of completed research-oriented projects."
+            },
+            {
+              "id": "projects-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "projects-task-1",
+                  "text": "Define a small research problem",
+                  "xp": 40
+                },
+                {
+                  "id": "projects-task-2",
+                  "text": "Complete an experiment",
+                  "xp": 60
+                },
+                {
+                  "id": "projects-task-3",
+                  "text": "Write up findings and limitations",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "personal-projects",
+          "parentId": "projects",
+          "title": "Personal Projects",
+          "kind": "group",
+          "description": "Self-directed projects for improving research skills and your public portfolio.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "personal-projects-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Self-directed projects for improving research skills and your public portfolio."
+            },
+            {
+              "id": "personal-projects-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "personal-projects-task-1",
+                  "text": "Select a small public dataset",
+                  "xp": 40
+                },
+                {
+                  "id": "personal-projects-task-2",
+                  "text": "Create an experiment repository",
+                  "xp": 60
+                },
+                {
+                  "id": "personal-projects-task-3",
+                  "text": "Share a documented result",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eeg-analysis",
+          "parentId": "personal-projects",
+          "title": "EEG Analysis",
+          "kind": "quest",
+          "description": "Study a biosignal dataset and implement a clearly evaluated EEG analysis pipeline.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "eeg-analysis-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Study a biosignal dataset and implement a clearly evaluated EEG analysis pipeline."
+            },
+            {
+              "id": "eeg-analysis-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "eeg-analysis-task-1",
+                  "text": "Select and describe an EEG dataset",
+                  "xp": 40
+                },
+                {
+                  "id": "eeg-analysis-task-2",
+                  "text": "Implement preprocessing and baseline",
+                  "xp": 60
+                },
+                {
+                  "id": "eeg-analysis-task-3",
+                  "text": "Document results and limitations",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "diagnostics-project",
+          "parentId": "personal-projects",
+          "title": "Diagnostics Project",
+          "kind": "quest",
+          "description": "Investigate whether a model can help classify or detect a clinically meaningful target.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "diagnostics-project-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Investigate whether a model can help classify or detect a clinically meaningful target."
+            },
+            {
+              "id": "diagnostics-project-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "diagnostics-project-task-1",
+                  "text": "Choose a diagnostic prediction question",
+                  "xp": 40
+                },
+                {
+                  "id": "diagnostics-project-task-2",
+                  "text": "Establish a baseline and evaluation protocol",
+                  "xp": 60
+                },
+                {
+                  "id": "diagnostics-project-task-3",
+                  "text": "Explain practical and ethical limitations",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "official-projects",
+          "parentId": "projects",
+          "title": "Official Projects",
+          "kind": "group",
+          "description": "Collaborations with a university, organization or research group.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "official-projects-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Collaborations with a university, organization or research group."
+            },
+            {
+              "id": "official-projects-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "official-projects-task-1",
+                  "text": "Identify a suitable collaboration",
+                  "xp": 40
+                },
+                {
+                  "id": "official-projects-task-2",
+                  "text": "Agree on a scope and deliverables",
+                  "xp": 60
+                },
+                {
+                  "id": "official-projects-task-3",
+                  "text": "Deliver a documented contribution",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ujai-society",
+          "parentId": "official-projects",
+          "title": "UJAI Society",
+          "kind": "quest",
+          "description": "Explore relevant research, learning or organizational opportunities through UJAI Society.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "ujai-society-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Explore relevant research, learning or organizational opportunities through UJAI Society."
+            },
+            {
+              "id": "ujai-society-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "ujai-society-task-1",
+                  "text": "Define a useful project or contribution",
+                  "xp": 40
+                },
+                {
+                  "id": "ujai-society-task-2",
+                  "text": "Connect with a relevant contact",
+                  "xp": 60
+                },
+                {
+                  "id": "ujai-society-task-3",
+                  "text": "Complete one concrete contribution",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "uppsala-university",
+          "parentId": "official-projects",
+          "title": "Uppsala University",
+          "kind": "quest",
+          "description": "Seek research-relevant opportunities at Uppsala University.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "uppsala-university-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Seek research-relevant opportunities at Uppsala University."
+            },
+            {
+              "id": "uppsala-university-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "uppsala-university-task-1",
+                  "text": "Identify a related research group",
+                  "xp": 40
+                },
+                {
+                  "id": "uppsala-university-task-2",
+                  "text": "Attend or request a research discussion",
+                  "xp": 60
+                },
+                {
+                  "id": "uppsala-university-task-3",
+                  "text": "Explore a practical thesis or project fit",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "thesis",
+          "parentId": "research",
+          "title": "Master’s Thesis",
+          "kind": "group",
+          "description": "Turn the degree thesis into your strongest piece of research evidence.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "thesis-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Turn the degree thesis into your strongest piece of research evidence."
+            },
+            {
+              "id": "thesis-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "thesis-task-1",
+                  "text": "Explore three possible thesis questions",
+                  "xp": 40
+                },
+                {
+                  "id": "thesis-task-2",
+                  "text": "Identify potential supervisors",
+                  "xp": 60
+                },
+                {
+                  "id": "thesis-task-3",
+                  "text": "Create a thesis proposal outline",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "thesis-topic",
+          "parentId": "thesis",
+          "title": "Define thesis topic",
+          "kind": "quest",
+          "description": "Turn a broad clinical AI interest into a feasible thesis question.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "thesis-topic-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Turn a broad clinical AI interest into a feasible thesis question."
+            },
+            {
+              "id": "thesis-topic-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "thesis-topic-task-1",
+                  "text": "Identify an available dataset",
+                  "xp": 40
+                },
+                {
+                  "id": "thesis-topic-task-2",
+                  "text": "Define a scoped research question",
+                  "xp": 60
+                },
+                {
+                  "id": "thesis-topic-task-3",
+                  "text": "Describe baselines and evaluation",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "thesis-supervisor",
+          "parentId": "thesis",
+          "title": "Find thesis supervisor",
+          "kind": "quest",
+          "description": "Find a supervisor who can support the question, method and available data.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "thesis-supervisor-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Find a supervisor who can support the question, method and available data."
+            },
+            {
+              "id": "thesis-supervisor-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "thesis-supervisor-task-1",
+                  "text": "Shortlist suitable researchers",
+                  "xp": 40
+                },
+                {
+                  "id": "thesis-supervisor-task-2",
+                  "text": "Send well-targeted enquiries",
+                  "xp": 60
+                },
+                {
+                  "id": "thesis-supervisor-task-3",
+                  "text": "Agree on supervision and scope",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "thesis-finish",
+          "parentId": "thesis",
+          "title": "Complete thesis",
+          "kind": "quest",
+          "description": "Complete research, write the thesis and defend it.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "thesis-finish-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Complete research, write the thesis and defend it."
+            },
+            {
+              "id": "thesis-finish-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "thesis-finish-task-1",
+                  "text": "Complete experiments",
+                  "xp": 40
+                },
+                {
+                  "id": "thesis-finish-task-2",
+                  "text": "Finalize thesis writing",
+                  "xp": 60
+                },
+                {
+                  "id": "thesis-finish-task-3",
+                  "text": "Submit and defend",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "career",
+          "parentId": "phd",
+          "title": "Career",
+          "kind": "category",
+          "description": "Become a competitive research candidate and find funded opportunities.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "career-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Become a competitive research candidate and find funded opportunities."
+            },
+            {
+              "id": "career-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "career-task-1",
+                  "text": "Build a professional academic presence",
+                  "xp": 40
+                },
+                {
+                  "id": "career-task-2",
+                  "text": "Make researcher connections",
+                  "xp": 60
+                },
+                {
+                  "id": "career-task-3",
+                  "text": "Track appropriate positions",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "company",
+          "parentId": "career",
+          "title": "Company",
+          "kind": "group",
+          "description": "Use professional work to strengthen technical and project delivery skills.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "company-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Use professional work to strengthen technical and project delivery skills."
+            },
+            {
+              "id": "company-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "company-task-1",
+                  "text": "Clarify the company’s medical AI direction",
+                  "xp": 40
+                },
+                {
+                  "id": "company-task-2",
+                  "text": "Document a technically relevant deliverable",
+                  "xp": 60
+                },
+                {
+                  "id": "company-task-3",
+                  "text": "Identify an ethical collaboration opportunity",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "consulting",
+          "parentId": "company",
+          "title": "Build relevant experience",
+          "kind": "quest",
+          "description": "Use software and data projects to practice reproducible delivery and communication.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "consulting-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Use software and data projects to practice reproducible delivery and communication."
+            },
+            {
+              "id": "consulting-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "consulting-task-1",
+                  "text": "Finish a data or AI deliverable",
+                  "xp": 40
+                },
+                {
+                  "id": "consulting-task-2",
+                  "text": "Write a short case study",
+                  "xp": 60
+                },
+                {
+                  "id": "consulting-task-3",
+                  "text": "Reflect on transferable research skills",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "networking",
+          "parentId": "career",
+          "title": "Networking",
+          "kind": "group",
+          "description": "Create real academic relationships, not merely a list of contacts.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "networking-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Create real academic relationships, not merely a list of contacts."
+            },
+            {
+              "id": "networking-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "networking-task-1",
+                  "text": "Map relevant labs and supervisors",
+                  "xp": 40
+                },
+                {
+                  "id": "networking-task-2",
+                  "text": "Attend an academic event",
+                  "xp": 60
+                },
+                {
+                  "id": "networking-task-3",
+                  "text": "Follow up on a meaningful conversation",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "connections",
+          "parentId": "networking",
+          "title": "Connections",
+          "kind": "quest",
+          "description": "Find people who work on image analysis, EEG, medical diagnostics or applied ML.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "connections-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Find people who work on image analysis, EEG, medical diagnostics or applied ML."
+            },
+            {
+              "id": "connections-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "connections-task-1",
+                  "text": "List 10 relevant researchers",
+                  "xp": 40
+                },
+                {
+                  "id": "connections-task-2",
+                  "text": "Send 3 thoughtful introductions",
+                  "xp": 60
+                },
+                {
+                  "id": "connections-task-3",
+                  "text": "Record what each group studies",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "partnerships",
+          "parentId": "networking",
+          "title": "Partnerships",
+          "kind": "quest",
+          "description": "Look for cross-disciplinary collaborations with clinicians or research groups.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "partnerships-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Look for cross-disciplinary collaborations with clinicians or research groups."
+            },
+            {
+              "id": "partnerships-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "partnerships-task-1",
+                  "text": "Identify one potential joint project",
+                  "xp": 40
+                },
+                {
+                  "id": "partnerships-task-2",
+                  "text": "Discuss mutual research interests",
+                  "xp": 60
+                },
+                {
+                  "id": "partnerships-task-3",
+                  "text": "Outline possible next steps",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "supervisor",
+          "parentId": "networking",
+          "title": "Identify and meet potential PhD supervisor",
+          "kind": "quest",
+          "description": "Learn how prospective supervisors frame research problems and recruit doctoral students.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "supervisor-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Learn how prospective supervisors frame research problems and recruit doctoral students."
+            },
+            {
+              "id": "supervisor-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "supervisor-task-1",
+                  "text": "Identify 5 potential supervisors",
+                  "xp": 40
+                },
+                {
+                  "id": "supervisor-task-2",
+                  "text": "Read work from 2 of their groups",
+                  "xp": 60
+                },
+                {
+                  "id": "supervisor-task-3",
+                  "text": "Arrange an informational meeting",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "portfolio",
+          "parentId": "career",
+          "title": "Portfolio",
+          "kind": "group",
+          "description": "Make your technical, academic and research work easy for others to evaluate.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "portfolio-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Make your technical, academic and research work easy for others to evaluate."
+            },
+            {
+              "id": "portfolio-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "portfolio-task-1",
+                  "text": "Review your academic CV",
+                  "xp": 40
+                },
+                {
+                  "id": "portfolio-task-2",
+                  "text": "Select flagship projects",
+                  "xp": 60
+                },
+                {
+                  "id": "portfolio-task-3",
+                  "text": "Update documentation and links",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "document-work",
+          "parentId": "portfolio",
+          "title": "Document Project Work",
+          "kind": "quest",
+          "description": "Turn finished projects into concise, credible evidence.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "document-work-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Turn finished projects into concise, credible evidence."
+            },
+            {
+              "id": "document-work-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "document-work-task-1",
+                  "text": "Write a project overview",
+                  "xp": 40
+                },
+                {
+                  "id": "document-work-task-2",
+                  "text": "Explain data, method and results",
+                  "xp": 60
+                },
+                {
+                  "id": "document-work-task-3",
+                  "text": "Add limitations and reproducibility notes",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "polish-cv",
+          "parentId": "portfolio",
+          "title": "Polish CV",
+          "kind": "quest",
+          "description": "Create a research-oriented CV that highlights methodological skills and impact.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "polish-cv-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Create a research-oriented CV that highlights methodological skills and impact."
+            },
+            {
+              "id": "polish-cv-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "polish-cv-task-1",
+                  "text": "Draft academic CV",
+                  "xp": 40
+                },
+                {
+                  "id": "polish-cv-task-2",
+                  "text": "Get feedback from a researcher or peer",
+                  "xp": 60
+                },
+                {
+                  "id": "polish-cv-task-3",
+                  "text": "Tailor CV to a relevant position",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "github-portfolio",
+          "parentId": "portfolio",
+          "title": "Fill out GitHub Portfolio",
+          "kind": "quest",
+          "description": "Publish well-organized repositories with reproducible, clearly documented work.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "github-portfolio-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Publish well-organized repositories with reproducible, clearly documented work."
+            },
+            {
+              "id": "github-portfolio-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "github-portfolio-task-1",
+                  "text": "Pin strong repositories",
+                  "xp": 40
+                },
+                {
+                  "id": "github-portfolio-task-2",
+                  "text": "Improve READMEs and setup instructions",
+                  "xp": 60
+                },
+                {
+                  "id": "github-portfolio-task-3",
+                  "text": "Add results, figures and limitations",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "applications",
+          "parentId": "career",
+          "title": "Applications",
+          "kind": "group",
+          "description": "Build a repeatable workflow for identifying and applying to suitable funded PhD positions.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "applications-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Build a repeatable workflow for identifying and applying to suitable funded PhD positions."
+            },
+            {
+              "id": "applications-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "applications-task-1",
+                  "text": "Learn application requirements",
+                  "xp": 40
+                },
+                {
+                  "id": "applications-task-2",
+                  "text": "Prepare reusable core materials",
+                  "xp": 60
+                },
+                {
+                  "id": "applications-task-3",
+                  "text": "Set up a vacancy tracker",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "identify-positions",
+          "parentId": "applications",
+          "title": "Find funded PhD positions",
+          "kind": "quest",
+          "description": "Look for advertised opportunities closely matching your research interests.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "identify-positions-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Look for advertised opportunities closely matching your research interests."
+            },
+            {
+              "id": "identify-positions-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "identify-positions-task-1",
+                  "text": "List target universities or labs",
+                  "xp": 40
+                },
+                {
+                  "id": "identify-positions-task-2",
+                  "text": "Find at least 5 relevant vacancies or labs",
+                  "xp": 60
+                },
+                {
+                  "id": "identify-positions-task-3",
+                  "text": "Record eligibility and application dates",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "application-pack",
+          "parentId": "applications",
+          "title": "Prepare application materials",
+          "kind": "quest",
+          "description": "Prepare a focused academic application package.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "application-pack-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Prepare a focused academic application package."
+            },
+            {
+              "id": "application-pack-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "application-pack-task-1",
+                  "text": "Draft motivation and research statement",
+                  "xp": 40
+                },
+                {
+                  "id": "application-pack-task-2",
+                  "text": "Assemble references and transcripts",
+                  "xp": 60
+                },
+                {
+                  "id": "application-pack-task-3",
+                  "text": "Tailor materials for one specific opening",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "apply-phd",
+          "parentId": "applications",
+          "title": "Submit PhD applications",
+          "kind": "quest",
+          "description": "Submit thoughtful applications and learn from each round.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "apply-phd-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Submit thoughtful applications and learn from each round."
+            },
+            {
+              "id": "apply-phd-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "apply-phd-task-1",
+                  "text": "Submit first tailored application",
+                  "xp": 40
+                },
+                {
+                  "id": "apply-phd-task-2",
+                  "text": "Prepare for a research interview",
+                  "xp": 60
+                },
+                {
+                  "id": "apply-phd-task-3",
+                  "text": "Review lessons for future applications",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wellbeing",
+      "title": "Wellbeing Grove",
+      "subtitle": "Sustainable routines & personal goals",
+      "accent": "#627e63",
+      "nodes": [
+        {
+          "id": "life",
+          "parentId": null,
+          "title": "Personal Wellbeing",
+          "kind": "root",
+          "description": "A calm place to maintain energy and make space for meaningful work. Progress is optional and flexible.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "life-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "A calm place to maintain energy and make space for meaningful work. Progress is optional and flexible."
+            },
+            {
+              "id": "life-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "life-task-1",
+                  "text": "Choose one sustainable daily habit",
+                  "xp": 40
+                },
+                {
+                  "id": "life-task-2",
+                  "text": "Create a weekly reflection",
+                  "xp": 60
+                },
+                {
+                  "id": "life-task-3",
+                  "text": "Celebrate a small win",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "energy",
+          "parentId": "life",
+          "title": "Energy & Rest",
+          "kind": "category",
+          "description": "Support regular rest and realistic pacing.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "energy-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Support regular rest and realistic pacing."
+            },
+            {
+              "id": "energy-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "energy-task-1",
+                  "text": "Set a sustainable evening wind-down routine",
+                  "xp": 40
+                },
+                {
+                  "id": "energy-task-2",
+                  "text": "Plan a short rest break",
+                  "xp": 60
+                },
+                {
+                  "id": "energy-task-3",
+                  "text": "Reflect on energy needs",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sleep",
+          "parentId": "energy",
+          "title": "Sleep routine",
+          "kind": "quest",
+          "description": "Build a repeatable bedtime routine suitable for your schedule.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "sleep-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Build a repeatable bedtime routine suitable for your schedule."
+            },
+            {
+              "id": "sleep-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "sleep-task-1",
+                  "text": "Choose a wind-down cue",
+                  "xp": 40
+                },
+                {
+                  "id": "sleep-task-2",
+                  "text": "Try it on two evenings",
+                  "xp": 60
+                },
+                {
+                  "id": "sleep-task-3",
+                  "text": "Reflect on what helped",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "recharge",
+          "parentId": "energy",
+          "title": "Recharge time",
+          "kind": "quest",
+          "description": "Make space for recovery without needing to earn it.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "recharge-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Make space for recovery without needing to earn it."
+            },
+            {
+              "id": "recharge-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "recharge-task-1",
+                  "text": "Plan an enjoyable break",
+                  "xp": 40
+                },
+                {
+                  "id": "recharge-task-2",
+                  "text": "Take a screen-free pause",
+                  "xp": 60
+                },
+                {
+                  "id": "recharge-task-3",
+                  "text": "Record a restorative activity",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "balance",
+          "parentId": "life",
+          "title": "Study Balance",
+          "kind": "category",
+          "description": "Plan study blocks and realistic workloads.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "balance-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Plan study blocks and realistic workloads."
+            },
+            {
+              "id": "balance-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "balance-task-1",
+                  "text": "Choose the most important task",
+                  "xp": 40
+                },
+                {
+                  "id": "balance-task-2",
+                  "text": "Break it into one manageable action",
+                  "xp": 60
+                },
+                {
+                  "id": "balance-task-3",
+                  "text": "Leave buffer time",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planning",
+          "parentId": "balance",
+          "title": "Plan the week",
+          "kind": "quest",
+          "description": "Keep weekly commitments visible and manageable.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "planning-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Keep weekly commitments visible and manageable."
+            },
+            {
+              "id": "planning-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "planning-task-1",
+                  "text": "Review upcoming deadlines",
+                  "xp": 40
+                },
+                {
+                  "id": "planning-task-2",
+                  "text": "Choose three priorities",
+                  "xp": 60
+                },
+                {
+                  "id": "planning-task-3",
+                  "text": "Reserve flexible time",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reflection",
+          "parentId": "balance",
+          "title": "Weekly reflection",
+          "kind": "quest",
+          "description": "Observe progress and adjust goals kindly.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "reflection-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Observe progress and adjust goals kindly."
+            },
+            {
+              "id": "reflection-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "reflection-task-1",
+                  "text": "Write what went well",
+                  "xp": 40
+                },
+                {
+                  "id": "reflection-task-2",
+                  "text": "Identify one obstacle",
+                  "xp": 60
+                },
+                {
+                  "id": "reflection-task-3",
+                  "text": "Choose an adjustment for next week",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "joy",
+          "parentId": "life",
+          "title": "Joy & Connection",
+          "kind": "category",
+          "description": "Remember rewarding activities and supportive relationships alongside academic work.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "joy-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Remember rewarding activities and supportive relationships alongside academic work."
+            },
+            {
+              "id": "joy-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "joy-task-1",
+                  "text": "Choose a hobby activity",
+                  "xp": 40
+                },
+                {
+                  "id": "joy-task-2",
+                  "text": "Connect with someone important",
+                  "xp": 60
+                },
+                {
+                  "id": "joy-task-3",
+                  "text": "Celebrate one milestone",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hobby",
+          "parentId": "joy",
+          "title": "Creative time",
+          "kind": "quest",
+          "description": "Make room for interests unrelated to productivity.",
+          "offsetX": 0,
+          "offsetY": 0,
+          "modules": [
+            {
+              "id": "hobby-overview",
+              "type": "text",
+              "title": "About this goal",
+              "body": "Make room for interests unrelated to productivity."
+            },
+            {
+              "id": "hobby-checklist",
+              "type": "checklist",
+              "title": "Achievements to unlock",
+              "items": [
+                {
+                  "id": "hobby-task-1",
+                  "text": "Choose a creative activity",
+                  "xp": 40
+                },
+                {
+                  "id": "hobby-task-2",
+                  "text": "Set aside some unstructured time",
+                  "xp": 60
+                },
+                {
+                  "id": "hobby-task-3",
+                  "text": "Reflect on the experience",
+                  "xp": 80
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

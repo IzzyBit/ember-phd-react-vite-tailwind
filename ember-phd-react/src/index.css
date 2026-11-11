@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "./legacy.css";
+
+/* Tailwind utilities layer under the original Ember component skin. */
+@theme {
+  --color-ember: #ad683d;
+  --color-bark: #3e342d;
+  --color-parchment: #f8f5ef;
+  --color-cream: #fffdf8;
+  --color-sage: #6e8268;
+}
+
+body { min-width: 320px; }
+#root { height: 100%; }
+button { cursor: pointer; }
+.card-surface { background: #fffdf9; border: 1px solid #e8dcca; border-radius: 16px; }
+.field-label { display: grid; gap: 7px; color: #746050; font-weight: 700; font-size: 12px; }
+.field-control { border: 1px solid #e1d2c1; border-radius: 9px; background: white; padding: 10px 12px; width: 100%; min-width: 0; color: #3e342d; }
+.field-control:focus { outline: 2px solid #c58a60; outline-offset: 1px; }
+.btn { text-decoration: none; }
+.map-scene, .map-grid { transform-origin: 0 0; }
+.node-fraction { font-variant-numeric: tabular-nums; }
+.page-hero { align-items: flex-end; }
+.soft-link { color: #955d3b; text-decoration: underline; text-underline-offset: 3px; }
+.soft-link:hover { color: #754326; }
+@media (max-width: 770px) {.detail-banner {flex-wrap: wrap;}}
